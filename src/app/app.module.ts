@@ -6,12 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header.component';
 import { RepicesComponent } from './repices/repices.component';
+import { RecipeListComponent } from './repices/recipe-list/recipe-list.component';
+import { RecipeItemComponent } from './repices/recipe-list/recipe-item.component';
+import { RecipeDetailComponent } from './repices/recipe-detail/recipe-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    RepicesComponent
+    RepicesComponent,
+    RecipeListComponent,
+    RecipeItemComponent,
+    RecipeDetailComponent
   ],
   imports: [
     BrowserModule,
